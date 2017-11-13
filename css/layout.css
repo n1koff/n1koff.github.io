@@ -39,7 +39,8 @@ html, body {
 }
 
 .screen--services {
-	
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
 .screen--footer {

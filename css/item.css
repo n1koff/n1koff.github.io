@@ -1,0 +1,109 @@
+.block-flex {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.item-title {
+	color: #3d3d3d;
+	font-size: 30px;
+	display: block;
+	margin-top: -5px;
+	font-weight: bold;
+}
+
+.item-title-sub {
+	color: #3d3d3d;
+	font-size: 30px;
+	display: block;
+	margin-top: -5px;
+	font-weight: bold;
+}
+
+.line {
+	background-color: #f16522;
+	height: 3px;
+	max-width: 50px;
+	border-radius: 10px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.item-content {
+	display: block;
+	margin-bottom: 15px;
+}
+
+.botton-link {
+	display: inline-block;
+	margin-top: 20px;
+	background-color: transparent;
+	text-align: center;
+	border: 2px solid #000;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-weight: bold;
+}
+
+.item-tho {
+	width: 50%;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~ item flex grid (Services) ~~~~~~~~~~~~~~~~~~~~~~~ */
+.item-flex-grid {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	-moz-flex-direction: row;
+	-ms-flex-direction: row;
+	-o-flex-direction: row;
+	flex-direction: row;
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	-o-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-ms-align-items: stretch;
+	align-items: stretch;
+	text-align: center;
+	justify-content: space-between;
+
+}
+
+.item-grid {
+	width: 50%;
+	padding-top: 10px;
+	background-color: #fff;
+}
+
+.item-grid-icon {
+	color: #f16522;
+}
+
+.item-grid-text {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5px;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding-bottom: 10px;
+	margin-bottom: 9px;
+}
+
+.item-line {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}

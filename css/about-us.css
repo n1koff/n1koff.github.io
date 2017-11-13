@@ -7,26 +7,12 @@
 	padding-bottom: 30px;
 }
 
-.block-about-us {
-	display: -webkit-flex;
-	display: -moz-flex;
-	display: -ms-flex;
-	display: -o-flex;
-	display: flex;
-	-ms-align-items: center;
-	align-items: center;
-	justify-content: space-around;
-}
-
 .about-us-item {
 	width: 30%;
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
 
-.item-tho {
-	width: 50%;
-}
 
 .about-us-avatar {
 	max-width: 100%;
@@ -39,45 +25,3 @@
 	margin-left: auto;
 }
 
-.about-us-item-title {
-	color: #3d3d3d;
-	font-size: 30px;
-	display: block;
-	margin-top: -5px;
-	font-weight: bold;
-}
-
-.about-us-item-title-sub {
-	color: #3d3d3d;
-	font-size: 30px;
-	display: block;
-	margin-top: -5px;
-	font-weight: bold;
-}
-
-.about-us-line {
-	background-color: #f16522;
-	height: 3px;
-	max-width: 50px;
-	border-radius: 10px;
-	margin-top: 25px;
-	margin-bottom: 25px;
-}
-
-.about-us-item-content {
-	display: block;
-	margin-bottom: 15px;
-}
-
-.about-us-botton-link {
-	display: inline-block;
-	margin-top: 20px;
-	background-color: transparent;
-	text-align: center;
-	border: 2px solid #000;
-	padding-left: 30px;
-	padding-right: 30px;
-	padding-top: 5px;
-	padding-bottom: 5px;
-	font-weight: bold;
-}
