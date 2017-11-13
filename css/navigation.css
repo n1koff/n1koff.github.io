@@ -1,0 +1,12 @@
+.nav-link-block {
+	text-align: center;
+}
+
+.nav-link {
+	border: 2px solid #fff;
+	color: #fff;
+	padding: 8px;
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
