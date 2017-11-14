@@ -3,10 +3,18 @@
 }
 
 .nav-link {
+	display: inline-block;
 	border: 2px solid #fff;
 	color: #fff;
 	padding: 8px;
 	font-size: 14px;
 	font-weight: bold;
 	text-transform: uppercase;
+	-webkit-transition-duration: 1s;
+	-o-transition-duration: 1s;
+	transition-duration: 1s;
+}
+
+.nav-link:hover {
+	transform: scale(1.2, 1.2);
 }

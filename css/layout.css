@@ -17,6 +17,15 @@ html, body {
 	margin-left: auto;
 }
 
+.screen--bg {
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: cover; 
+	background-attachment: fixed;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
 .screen-navigation {
 	padding-top: 20px;
 	padding-bottom: 20px;
@@ -41,6 +50,11 @@ html, body {
 .screen--services {
 	padding-top: 50px;
 	padding-bottom: 50px;
+}
+
+.screen--certificate {
+	background-color: #F0F0F0;
+	text-align: center;
 }
 
 .screen--footer {

@@ -41,4 +41,11 @@
 	padding-top: 5px;
 	padding-bottom: 5px;
 	color: #fff;
+	-webkit-transition-duration: 1s;
+	-o-transition-duration: 1s;
+	transition-duration: 1s;
+}
+
+.header-button-link:hover {
+	transform: scale(1.2, 1.2);
 }
