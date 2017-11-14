@@ -10,8 +10,9 @@ $(document).ready(function(){
 $(document).ready(function() {
  
   $(window).resize(function(){
+  	var ScreenHeight = screen.height;
     var windowWidth = $(window).width();
-    if(windowWidth > 760)$("#item").addClass("item-tho");
-    else $("#item").removeClass("item-tho");
+    if( ScreenHeight > 760)$("#item").addClass("item-set");
+    else $("#item").removeClass("item-set");
   });
 });
