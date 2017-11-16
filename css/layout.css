@@ -69,5 +69,7 @@ html, body {
 .screen--footer {
 	height: 68px;
 	margin-top: -68px;
-	background-color: #000;
+	padding-top: 20px;
+	background-color: rgb(34, 34, 34);
+	text-align: center;
 }
