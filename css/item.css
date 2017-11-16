@@ -59,10 +59,16 @@
 
 .botton-link:hover {
 	transform: scale(1.2, 1.2);
+	text-decoration: none;
+	color: inherit;
 }
 
 .item-set {
 	width: 50%;
+}
+
+.item-link:hover {
+	text-decoration: none;
 }
 
 /*~~~~~~~~~~~~~~~~~~~~~~~ item flex grid (Services) ~~~~~~~~~~~~~~~~~~~~~~~ */

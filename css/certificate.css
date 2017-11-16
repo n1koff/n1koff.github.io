@@ -3,20 +3,21 @@
 	max-height: 300px;
 	padding-left: 10px;
 	padding-right: 10px;
-	-webkit-transition-duration: 2s;
-	-o-transition-duration: 2s;
-	transition-duration: 2s;
 }
 
-.certificate-slide:hover {
-	transform: scale(0.8, 0.8);
-}
 
 .img-slide {
 	max-width: 100%;
 	max-height: 300px;
 	margin-left: auto;
 	margin-right: auto;
+	-webkit-transition-duration: 2s;
+	-o-transition-duration: 2s;
+	transition-duration: 2s;
+}
+
+.img-slide:hover {
+	transform: scale(0.8, 0.8);
 }
 
 .title-c {

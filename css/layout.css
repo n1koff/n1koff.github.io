@@ -33,6 +33,7 @@ html, body {
 	position:fixed;
 	top:0;
 	width:100%;
+	z-index: 10000;
 }
 
 .screen--header {
@@ -57,8 +58,16 @@ html, body {
 	text-align: center;
 }
 
+.screen--portfolio {
+	background-color: rgb(34, 34, 34);
+}
+
+.screen--social {
+	background-color: rgb(240, 240, 240);
+}
+
 .screen--footer {
- 	height: 68px;
- 	margin-top: -68px;
+	height: 68px;
+	margin-top: -68px;
 	background-color: #000;
 }
