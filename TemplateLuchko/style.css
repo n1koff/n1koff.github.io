@@ -1,0 +1,46 @@
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #E5E9EC;
+}
+
+header{
+  width: 100%;
+  height: 70px;
+  background-color: #fafafa;
+  overflow: hidden;
+}
+header h1{
+  margin: 0px;
+  padding-top: 18px;
+  text-align: center;
+  font-family: arial, sans-serif;
+  font-size: 24px;
+  color: #4C5264;
+}
+
+main article {
+  text-align: center;
+  overflow: hidden;
+  padding: 40px;
+  border-bottom: 1px solid #ccc;
+}
+main article h2 {
+  font-family: arial, sans-serif;
+  margin: 0px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  color: #4C5264;
+}
+main article pre {
+  width: 500px;
+  margin: auto;
+  margin-bottom: 30px;
+  padding: 10px;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  font-family: monospace, verdana;
+  font-size: 14px;
+  color: #444;
+}
