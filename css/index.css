@@ -219,6 +219,15 @@ body {
   font-weight: bold;
 }
 
+.item-ul {
+	list-style-type: none;
+}
+
+.item-li:before {
+	content: '• ';
+	font-size: 20px;
+}
+
 .line {
   background-color: #f16522;
   height: 3px;
